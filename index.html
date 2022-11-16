@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+</head>
+<body>
+   
+    <h1>freeCodeCamp Survey Form</h1>
+    <h2>Thank you for taking the time to help us improve the platform</h2>
+    <div>
+        <form>
+        <!-- Name Lbael -->
+        <label id="name">Name</label><br>
+         <input id="name"
+         name="name"
+         type="text"
+         placeholder="enter your name here"
+         required><br>
+        <!-- Email Lbael -->
+         <label id="Email">Email</label><br>
+        <input id="Email"
+         name="Email"
+         type="email"
+         placeholder="enter your Email here"
+         required><br>
+        <!-- Age Lbael -->
+         <label id="Age">Age</label><br>
+         <input id="Age"
+         name="Age"
+         type="text"
+         placeholder="enter your Age here"
+       
+    
+     
+         <!-- Current Role Lbael -->
+         <label id="Role">Which option best describes your current role?</label><br>
+         <select id="dropdown1" name="Role" >
+            <option disabled selected value>Select current role</option>
+            <option value="Student">Student</option>
+            <option value="First Time Job">First Time Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer Not To Say">Prefer Not to Say</option>
+            <option value="Other">Other</option>
+          </select><br>
+    
+    
+        <!-- Recommendations-->
+        <label id="Recommendations">Would you recommend freeCodeCamp to a friend?</label><br>
+        <input id="Definitely" type="radio" value="Definitely">Definitely<br>
+        <input id="Maybe" type="radio" value="Maybe">Maybe<br>
+        <input id="Not Sure" type="radio" value="Not Sure">Not Sure<br>
+
+        <!-- Current Role Lbael -->
+        <label id="Feature">What is your favorite feature of freeCodeCamp?</label><br>
+        <div id="inputs">
+        <select id="dropdown2" name="Feature" >
+            <option disabled selected value>Select an Option</option>
+           <option value="Challenges1">Challenges</option>
+           <option value="Projects">Projects</option>
+           <option value="Community">Community</option>
+           <option value="Open Source">Open Source</option>
+         </select><br>
+        </div>
+    
+        <!-- List of Recommendations-->
+        <label id="Improved">What would you like to see improved? (Check all that apply)</label><br>
+        <div id="inputs">
+        <input id="Front-end Projects" type="checkbox" value="Front-end Projects">Front-end Projects<br>
+        <input id="Back-end Projects" type="checkbox" value="Back-end Projects">Back-end Projects<br>
+        <input id="Data Visulisation" type="checkbox" value="Data Visulisation">Data Visulisation<br>
+        <input id="Challenges2" type="checkbox" value="Challenges2">Challenges<br>
+        <input id="Open Source Community" type="checkbox" value="Open Source Community">Open Source Community<br>
+        <input id="Gitter help rooms" type="checkbox" value="Gitter help rooms">Gitter help rooms<br>
+        <input id="Videos" type="checkbox" value="Videos">Videos<br>
+        <input id="City Meetups" type="checkbox" value="City Meetups">City Meetups<br>
+        <input id="WiKi" type="checkbox" value="WiKi">WiKi<br>
+        <input id="Form" type="checkbox" value="Form">Form<br>
+        <input id="Additional Cources" type="checkbox" value="Additional Cources">Additional Cources<br>
+    </div>
+    </label>
+    <br>
+    <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+            rows="10" cols="80"
+          ></textarea>
+
+    <input id="submit" type="submit">
+    </form>
+     </div>
+
+</body>
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+</html>
